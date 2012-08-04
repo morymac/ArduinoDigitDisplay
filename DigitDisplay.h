@@ -7,5 +7,6 @@ public:
 DigitDisplay();
 ~DigitDisplay();
 void setsegment(int digit,int segment,bool state);
+void clear();
 };
 #endif

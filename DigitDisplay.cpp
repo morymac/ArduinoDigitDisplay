@@ -12,6 +12,7 @@ pinMode(7,OUTPUT);
 pinMode(8,OUTPUT);
 pinMode(9,OUTPUT);
 pinMode(10,OUTPUT);
+pinMode(11,OUTPUT);
 pinMode(12,OUTPUT);
 
 digitalWrite(1,HIGH);
@@ -72,5 +73,36 @@ case 8:
 digitalWrite(3,LOW);
 break;
 }
+
+}
+
+void DigitDisplay::clear(){
+pinMode(1,OUTPUT); 
+pinMode(2,OUTPUT);
+pinMode(3,OUTPUT);
+pinMode(4,OUTPUT);
+pinMode(5,OUTPUT);
+pinMode(6,OUTPUT); // not even necessary
+pinMode(7,OUTPUT);
+pinMode(8,OUTPUT);
+pinMode(9,OUTPUT);
+pinMode(10,OUTPUT);
+pinMode(11,OUTPUT);
+pinMode(12,OUTPUT);
+
+digitalWrite(1,HIGH);
+digitalWrite(2,HIGH);
+digitalWrite(3,HIGH);
+digitalWrite(4,LOW);
+digitalWrite(5,LOW);
+digitalWrite(6,HIGH); // not necessary too
+digitalWrite(7,HIGH);
+digitalWrite(8,HIGH);
+digitalWrite(9,LOW);
+digitalWrite(10,HIGH);
+digitalWrite(11,HIGH);
+digitalWrite(12,HIGH);
+
+
 
 }
