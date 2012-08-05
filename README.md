@@ -76,6 +76,6 @@ Credits
 =======
 
 The library is written by me, morymac.
-The TimedAction Library was written by Alexander Brevig, please see (http://arduino.cc/playground/Code/TimedAction)
+The TimedAction Library was written by Alexander Brevig, please see http://arduino.cc/playground/Code/TimedAction
 
 
